@@ -1,6 +1,6 @@
 # CSS Landing Page
 
-> A simple landing page built using grid and flexbox.
+> A simple landing page built using flexbox, grid and bootstrap.
 
 ![screenshot](./app_screenshot.png)
 
@@ -8,6 +8,7 @@
 
 - HTML
 - CSS
+- Bootstrap
 
 ## Live Demo
 

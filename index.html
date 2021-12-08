@@ -1,16 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Layout Master</title>
+  <link rel="stylesheet" href="libs/bootstrapCSS/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="src/style.css">
-  <link rel="stylesheet" href="src/mystyle.css">
+ <link rel="stylesheet" href="src/mystyle.css">
 </head>
-<body>
-  <div class="container">
-    <div class="zone green">Header</div>
+<body> 
+  <!-- Nav bar -->
+  <nav class="navbar zone green navbar-expand-lg navbar-dark" id="nav-bar">
+    <div class="container-fluid">     
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Products</a>
+          </li>          
+          <li class="nav-item">
+            <a class="nav-link">Our Team</a>
+          </li>
+        </ul>
+        <p class="nav-link">Contact</p>       
+      </div>
+    </div>
+  </nav>
+  <!-- <nav class="zone green navbar navbar-expand-lg"><span class="headLinks"><ul class="headList">
+    <li>About</li>
+    <li>Products</li>
+    <li>Our Team</li>
+  </ul></span><span class="headContact"><p>Contact</p></span></nav> -->
+  <div class="container">    
     <div class="zone red">Cover</div>
     <div class="zone blue">Project Grid</div>
     <div class="zone yellow">Footer</div>
   </div>
+
+  <script src="libs/boostrapJS/bootstrap.bundle.js"></script>
 </body>
 </html>
