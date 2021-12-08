@@ -1,3 +1,9 @@
+html,
+body {
+  width: 100vw;
+  margin: 0;
+  overflow-x: hidden;
+}
 .navbar {
   margin: 0;
   border: 0;
@@ -16,4 +22,64 @@
 
 #navbarSupportedContent .nav-link:hover {
   color: rgb(197, 197, 197);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.red,
+.blue,
+.yellow {
+  border: 0;
+}
+
+.zone {
+  margin: 0;
+  width: 100vw;
+}
+
+.red {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100px;
+}
+
+.grid-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(44, 43, 44);
+  border: 2px solid gray;
+  border-radius: 5px 5px 5px 5px;
+  width: 300px;
+  height: 400px;
+  margin: 0;
+}
+
+#portfolio {
+  width: 100vw;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-rows: 1fr;
+  grid-gap: 50px;
+  margin: 0;
 }
