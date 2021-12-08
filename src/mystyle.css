@@ -45,10 +45,11 @@ body {
 }
 
 .red {
-  height: 90vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0;
 }
 
 .blue {
@@ -88,4 +89,25 @@ img {
   align-items: center;
   justify-content: center;
   color: blueviolet;
+}
+
+#desk-img {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 985px) {
+  #cover {
+    margin: 0;
+    background-image: url(images/mobile-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  #desk-img {
+    display: none;
+  }
 }
