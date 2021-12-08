@@ -1,6 +1,6 @@
 # CSS Landing Page
 
-> A simple landing page built using flexbox, grid and bootstrap That is responsive on all displays from mobile to desktop.
+> A simple landing page built using flexbox, grid and bootstrap that is responsive on all displays from mobile to desktop.
 
 ![screenshot](src/screenshot/h-sec.png)
 
