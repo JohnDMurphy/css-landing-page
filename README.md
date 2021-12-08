@@ -39,3 +39,4 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - zerotomastery.io
+- Unsplash.com
