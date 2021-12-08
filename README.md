@@ -2,7 +2,9 @@
 
 > A simple landing page built using flexbox, grid and bootstrap.
 
-![screenshot](./app_screenshot.png)
+![screenshot](src/screenshot/h-sec.png)
+
+![screenshot](src/screenshot/p-sec.png)
 
 ## Built With
 
