@@ -83,3 +83,10 @@ img {
   grid-gap: 50px;
   margin: 0;
 }
+
+.yellow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: blueviolet;
+}
