@@ -61,26 +61,26 @@
  **********************************************************************/
 .yellow {
   background: #f3aaaa; /* Old browsers */
-  background: -moz-linear-gradient(top, #f3aaaa 0%, #febf04 100%); /* FF3.6+ */
+  background: -moz-linear-gradient(top, #f3aaaa 0%, #fe6004 100%); /* FF3.6+ */
   background: -webkit-gradient(
     linear,
     left top,
     left bottom,
     color-stop(0%, #f3aaaa),
-    color-stop(100%, #febf04)
+    color-stop(100%, #fe6004)
   ); /* Chrome,Safari4+ */
   background: -webkit-linear-gradient(
     top,
     #f3aaaa 0%,
-    #febf04 100%
+    #fe6004 100%
   ); /* Chrome10+,Safari5.1+ */
   background: -o-linear-gradient(
     top,
     #f3aaaa 0%,
-    #febf04 100%
+    #fe6004 100%
   ); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #f3aaaa 0%, #febf04 100%); /* IE10+ */
-  background: linear-gradient(top, #f3aaaa 0%, #febf04 100%); /* W3C */
+  background: -ms-linear-gradient(top, #f3aaaa 0%, #fe6004 100%); /* IE10+ */
+  background: linear-gradient(top, #f3aaaa 0%, #fe6004 100%); /* W3C */
 }
 
 /***********************************************************************
